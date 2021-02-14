@@ -164,6 +164,7 @@ search.addEventListener("keypress", event => {
   if (event.key == "Enter")
     searchBtn.click();
 });
+
 durationInputBox.addEventListener("keypress", event => {
   if (event.key == "Enter")
     sliderBtn.click();
